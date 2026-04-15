@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  background: #1010be;
+}
+.nav {
+  height: 50px;
+  background-color: rgba(31, 29, 29, 0.92);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav img {
+  margin: 15px;
+  height: 40px;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+}
+.first h1 {
+  color: rgba(125, 176, 44, 0.537);
+  border: solid red;
+  background-color: gradient-color(to right blue, red);
+}
+.first img {
+  margin: 15px;
+  height: 70px;
+  width: 70px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about img {
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.skill {
+  display: flex;
+  justify-content: space-around;
+}
+.resume button {
+  background-color: blue;
+  border-radius: 5px;
+  box-shadow: 5px;
+}
+.resume a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background: #eee;
+  padding: 15px 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.row {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+}
+.row img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+.row p {
+  margin: 0;
+}
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
