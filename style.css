@@ -5,6 +5,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+main {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  width: 750px;
+  margin: 50px auto;
+  padding: 35px 45px;
+}
 .btn:hover {
   background: #1010be;
 }
